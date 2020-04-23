@@ -2,13 +2,103 @@
 <html>
 <head>
 	<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link href="assets/main.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-	<h1>John Vacca Portfolio Site</h1>
 	<div id="page-container">
+
+		<section id="splash">
+			<div class="outer">
+				<div class="title">
+					<h1>Site Artisan</h1>
+					<h3>John Vacca</h3>
+				</div>
+				<div class="inner">
+					<a id="more" href="">More</a>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="trigger-fade-block">
+			<h2>about</h2>
+			<div class= "inner">
+				<p class="fade-block">
+					Full Stack Developer with over 15 years of experience with various digital experiences in the marketing and advertising and recently e-commerce space. Spearheaded teams of engineers for large award-winning branding sites highlighting Macy’s world-famous events including Macy’s Thanksgiving Parade, Macy’s 4th of July Fireworks and Macy’s Flower Show. Developed e-commerce solutions that help raise the company’s revenue in online sales, help highlight the company’s online customer support and various online initiatives both on desktop and mobile experiences. Specializing in highly interactive and animated experiences, partnering with creative teams from concept to execution.
+				</p>
+				<div class="columns">
+					<div class="column fade-block">
+						<h1>Stack</h1>
+						<ul>
+							<li>ES6 + Babel + React</li>
+							<li>Backbone</li>
+							<li>Node Express<br /> + Handlebars</li>
+							<li>Wordpress as CMS</li>
+							<li>jQuery</li>
+							<li>CSS3 + SASS</li>
+							<li>Heroku + Node<br /> environment</li>
+						</ul>
+					</div>
+		
+					<div class="column fade-block">
+						<h1>Tools</h1>
+						<ul>
+							<li>NPM + Gulp<br /> + Webpack</li>
+							<li>VS Code + linters</li>
+							<li>Chrome Dev Tools</li>
+							<li>React Dev Tools</li>
+							<li>Git (Command Line)<br /> & SourceTree</li>
+							<li>Gitlab + Jenkins</li>
+							<li>Jasmine testing</li>
+							<li>Postman</li>
+						</ul>
+					</div>
+
+					<div class="column fade-block">
+						<h1>Libraries</h1>
+						<ul>
+							<li>GSAP TweenMax</li>
+							<li>ScrollMagic</li>
+							<li>Pixel.js</li>
+							<li>Google Maps</li>
+							<li>YouTube API</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="portfolio" class="trigger-fade-block">
+			<h2>portfolio</h2>
+
+			<div class= "inner">
+				<p class="fade-block">
+					Here's a list of my work
+				</p>
+
+				<div class="carousel fade-block">
+					<a href="https://macys.com/social/parade" target="_blank" id="parade" class="slide">
+						<p>Macy's Parade</p>
+					</a>
+					<a href="https://macys.com/s/flower-show" target="_blank" id="flowershow" class="slide">
+						<p>Macy's Flower Show</p>
+					</a>
+					<a href="https://macys.com/s/culinary-council" target="_blank" id="culinary" class="slide">
+						<p>Macy's Culinary Council</p>
+					</a>
+					<a href="https://macys.com/social/fireworks" target="_blank" id="fireworks" class="slide">
+						<p>Macy's Fireworks</p>
+					</a>
+				</div>
+			</div>
+		</section>
+
 	</div>
 	<script type="text/javascript" src="assets/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script  type="text/javascript" src="assets/main.js"></script>
 </body>
 </html>
